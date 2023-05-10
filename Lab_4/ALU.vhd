@@ -33,9 +33,53 @@ architecture ALU_Arch of ALU is
 			shamt:	in std_logic_vector(4 downto 0);
 			dataout: out std_logic_vector(31 downto 0));
 	end component shift_register;
-
+	
+	signal sum: std_logic_vector(31 downto 0);
+	signal shiftget: std_logic_vector(31 downto 0);
+	signal carryhold: std_logic;
+	signal sumcheck, shiftcheck, andcheck, orcheck: std_logic;
 begin
 	-- Add ALU VHDL implementation here
+	addsub: adder_subtracter port map (
+		datain_a => DataIn1,
+		datain_b => DataIn2,
+		add_sub => ALUCtrl(4),
+		dataout => sum,
+		co => carryhold
+	);
+
+	shifter: shift_register port map (
+		datain => DataIn1,
+		shamt => DataIn2(4 downto 0),
+		dir => DataIn2(5),
+		dataout => shiftget
+	);
+	
+	with ALUCtrl(3 downto 0) select
+	ALUResult <= sum when "0000",
+		     DataIn1 AND DataIn2 when "0001",
+		     DataIn1 OR DataIn2 when "0010",
+		     shiftget when "0011",
+		     (others => 'Z') when others;
+
+	sumcheck <= '1' when sum = "00000000000000000000000000000000" else
+		    '0';
+
+	andcheck <= '1' when (DataIn1 AND DataIn2) = "00000000000000000000000000000000" else
+		    '0';
+
+	orcheck <= '1' when (DataIn1 OR DataIn2) = "00000000000000000000000000000000" else
+		   '0';
+
+	shiftcheck <= '1' when shiftget = "00000000000000000000000000000000" else
+		      '0';
+
+	with ALUCtrl(3 downto 0) select
+	Zero <=  sumcheck when "0000",
+		 andcheck when "0001",
+		 orcheck when "0010",
+		 shiftcheck when "0011",
+		 'Z' when others;
 
 end architecture ALU_Arch;
 
