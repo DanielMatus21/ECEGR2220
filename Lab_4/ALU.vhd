@@ -51,7 +51,7 @@ begin
 	shifter: shift_register port map (
 		datain => DataIn1,
 		shamt => DataIn2(4 downto 0),
-		dir => DataIn2(5),
+		dir => DataIn2(4),
 		dataout => shiftget
 	);
 	
