@@ -51,7 +51,7 @@ begin
 	shifter: shift_register port map (
 		datain => DataIn1,
 		shamt => DataIn2(4 downto 0),
-		dir => DataIn2(5),
+		dir => ALUCtrl(4),
 		dataout => shiftget
 	);
 	
@@ -60,6 +60,7 @@ begin
 		     DataIn1 AND DataIn2 when "0001",
 		     DataIn1 OR DataIn2 when "0010",
 		     shiftget when "0011",
+		     DataIn2 when "0100",
 		     (others => 'Z') when others;
 
 	sumcheck <= '1' when sum = "00000000000000000000000000000000" else
