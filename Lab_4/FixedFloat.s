@@ -34,7 +34,7 @@ fixed:
 	
 	add	t1, zero, a0	#save to t1
 	
-	mul		t2, t1, t0	# low 32 bits
+	mul	t2, t1, t0	# low 32 bits
 	mulh	t3, t1, t0	# high 32 bits
 
 	li	a7,4			#system call for print string

@@ -1,4 +1,4 @@
-.data
+	.data
 
 Val1:  .float 6.45
 Val2:  .float 1014.78
