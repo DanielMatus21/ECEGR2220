@@ -60,6 +60,7 @@ begin
 		     DataIn1 AND DataIn2 when "0001",
 		     DataIn1 OR DataIn2 when "0010",
 		     shiftget when "0011",
+		     DataIn2 when "0100",
 		     (others => 'Z') when others;
 
 	sumcheck <= '1' when sum = "00000000000000000000000000000000" else
