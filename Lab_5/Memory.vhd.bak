@@ -201,7 +201,7 @@ begin
 
 	process (WriteCmd) is
 	begin
-		if (WriteCmd='1') then
+		if (WriteCmd'event and WriteCmd='1') then
 
 			case WriteReg is
 				when "01010" =>

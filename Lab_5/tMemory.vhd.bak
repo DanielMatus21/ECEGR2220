@@ -240,13 +240,6 @@ BEGIN
 		writeCmd <= '0';
 		wait for 5 ns;	
 
-		dataIn   <= X"99999999";
-		writeReg <= "00000";
-		writeCmd <= '1';
-		wait for 5 ns;	
-		writeCmd <= '0';
-		wait for 5 ns;	
-
 		readReg1 <= "00000";
 		readReg2 <= "01010";
 		wait for 10 ns;	
