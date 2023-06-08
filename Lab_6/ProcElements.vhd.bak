@@ -114,7 +114,7 @@ begin
 		if (Reset = '1') then
 			PCout <= x"00400000";
 		elsif rising_edge(Clock) then
-			PCout <= PCin;
+			PCout <= PCin
 		end if;
 	end process;
 

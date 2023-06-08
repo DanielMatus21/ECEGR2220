@@ -139,7 +139,7 @@ begin
 	PCoutImm <= PCout + immediate;
 
 	immediatesave <= (x"00000" & Instruction(31 downto 25) & Instruction(11 downto 7));
-	immediatebranch <= ("0000000000000000000" & Instruction(31) & Instruction(7) & Instruction(30 downto 25) & Instruction(11 downto 8) & "0");
+	immediatebranch <= ("000000000000000000" & Instruction(31) & Instruction(7) & Instruction(30 downto 25) & Instruction(11 downto 8) & "0");
 	immediatecal <= (x"00000" & Instruction(31 downto 20));
 
 	with instruction(6 downto 0) select

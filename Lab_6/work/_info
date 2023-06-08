@@ -1,0 +1,733 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e vcom 2022.2 2022.04, Apr 25 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Siemens/questasim64_2022.2/examples
+T_opt
+!s110 1686257743
+VkQ[FN^Pe]WW@?=[]Q`Ez]2
+Z2 04 14 8 work tprocessor_vhd behavior 1
+=1-d8bbc17f2dc1-6482404f-103-3b74
+R0
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2022.2;75
+R1
+T_opt1
+!s110 1686257757
+V9lTSOg]b`fEL>onQgZ4fY1
+R2
+=1-d8bbc17f2dc1-6482405d-34-4154
+R0
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+Eadder_subtracter
+Z6 w1686242857
+Z7 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
+Z8 DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
+Z9 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z10 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z11 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 82
+Z12 dC:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6
+Z13 8C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/registers.vhd
+Z14 FC:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/registers.vhd
+l0
+L196 1
+V4:41@J;YFMkkkV:`>Kl3g3
+!s100 9iA^a1oMTQkM<Bz>?7><a1
+Z15 OL;C;2022.2;75
+32
+Z16 !s110 1686257729
+!i10b 1
+Z17 !s108 1686257729.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/registers.vhd|
+Z19 !s107 C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/registers.vhd|
+!i113 0
+Z20 o-work work -2002 -explicit
+Z21 tExplicit 1 CvgOpt 0
+Acalc
+R7
+R8
+R9
+R10
+R11
+DEx4 work 16 adder_subtracter 0 22 4:41@J;YFMkkkV:`>Kl3g3
+!i122 82
+l217
+L204 23
+VBc2EfXB5>Xh2Q8CLl>ani3
+!s100 X;5OeKe@d]:9Q4Dl;aHQa2
+R15
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R20
+R21
+Ealu
+R6
+R7
+R8
+R9
+R10
+R11
+!i122 83
+R12
+Z22 8C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/ALU.vhd
+Z23 FC:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/ALU.vhd
+l0
+Z24 L12 1
+VCTYzBY9Vf@Nd^0MzVG?N20
+!s100 h5lG@2<9hNWOQfc:aXSCR0
+R15
+32
+R16
+!i10b 1
+R17
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/ALU.vhd|
+Z26 !s107 C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/ALU.vhd|
+!i113 0
+R20
+R21
+Aalu_arch
+R7
+R8
+R9
+R10
+R11
+DEx4 work 3 alu 0 22 CTYzBY9Vf@Nd^0MzVG?N20
+!i122 83
+l41
+L20 66
+VFYz?XB36PoOcXACf2KlTK2
+!s100 icW2g@WSFlkgcchn>oViX3
+R15
+32
+R16
+!i10b 1
+R17
+R25
+R26
+!i113 0
+R20
+R21
+Ebitstorage
+R6
+R7
+R8
+R9
+R10
+R11
+!i122 82
+R12
+R13
+R14
+l0
+R24
+VDNB=NVeBWPR;ZS]FC[3OI1
+!s100 F5=@9=]czFYkNVK74E<Q03
+R15
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R20
+R21
+Amemlike
+R7
+R8
+R9
+R10
+R11
+DEx4 work 10 bitstorage 0 22 DNB=NVeBWPR;ZS]FC[3OI1
+!i122 82
+l21
+L19 13
+VF8:;f_[4OWQP0>J=W9>fL3
+!s100 >ig0K2?l2]?j^a3[4Qon13
+R15
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R20
+R21
+Ebusmux2to1
+Z27 w1686254403
+R8
+R7
+R10
+R11
+!i122 85
+R12
+Z28 8C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/ProcElements.vhd
+Z29 FC:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/ProcElements.vhd
+l0
+Z30 L11 1
+V5RC5=n=J@TS6J8Mfc40Ma3
+!s100 25RE:oI`B@z3z13`kZ=7^1
+R15
+32
+R16
+!i10b 1
+R17
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/ProcElements.vhd|
+Z32 !s107 C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/ProcElements.vhd|
+!i113 0
+R20
+R21
+Aselection
+R8
+R7
+R10
+R11
+DEx4 work 10 busmux2to1 0 22 5RC5=n=J@TS6J8Mfc40Ma3
+!i122 85
+l18
+L17 7
+VlGaA3c`NB:>ha91`:l2mV2
+!s100 <1m^neL2WOQSH=9?=hX^M0
+R15
+32
+R16
+!i10b 1
+R17
+R31
+R32
+!i113 0
+R20
+R21
+Econtrol
+R27
+R8
+R7
+R10
+R11
+!i122 85
+R12
+R28
+R29
+l0
+L31 1
+VWbci>94B;fUg`DD^WzAjo3
+!s100 ^P^C9?lZfl:L8b:5e5J@;1
+R15
+32
+R16
+!i10b 1
+R17
+R31
+R32
+!i113 0
+R20
+R21
+Aboss
+R8
+R7
+R10
+R11
+DEx4 work 7 control 0 22 Wbci>94B;fUg`DD^WzAjo3
+!i122 85
+l50
+L46 50
+V_KY8fAX=c:Q7hefFIIlGK3
+!s100 N[>0419nf;OeL54?1GO3g1
+R15
+32
+R16
+!i10b 1
+R17
+R31
+R32
+!i113 0
+R20
+R21
+Efulladder
+R6
+R7
+R8
+R9
+R10
+R11
+!i122 82
+R12
+R13
+R14
+l0
+L39 1
+VS7;hIV:Iz9XGV^^B2Ggd<0
+!s100 lzL@JjQGX3NDS0ALHz8YG0
+R15
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R20
+R21
+Aaddlike
+R7
+R8
+R9
+R10
+R11
+DEx4 work 9 fulladder 0 22 S7;hIV:Iz9XGV^^B2Ggd<0
+!i122 82
+l49
+L48 5
+VO0J5jJj8?`^RDeefiW7?42
+!s100 8Y=T;0ok]bfSQ`5P9n2NC3
+R15
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R20
+R21
+Einstructionram
+Z33 w1685567543
+R7
+R8
+R9
+R10
+R11
+!i122 86
+R12
+Z34 8C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/InstrMemory.vhd
+Z35 FC:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/InstrMemory.vhd
+l0
+R30
+V;QdWWA^BVcRHEi[FdX8VQ1
+!s100 ?KjiAM9[7DCBP;Qzjfh[N1
+R15
+32
+R16
+!i10b 1
+R17
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/InstrMemory.vhd|
+Z37 !s107 C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/InstrMemory.vhd|
+!i113 0
+R20
+R21
+Ainstrucram
+R7
+R8
+R9
+R10
+R11
+DEx4 work 14 instructionram 0 22 ;QdWWA^BVcRHEi[FdX8VQ1
+!i122 86
+l24
+L18 40
+Vi?FN[8Kki<`OG=1?L`MVD0
+!s100 1D:NnhQ0lHfKFgjK5nBgd2
+R15
+32
+R16
+!i10b 1
+R17
+R36
+R37
+!i113 0
+R20
+R21
+Eprocessor
+Z38 w1686257651
+R8
+R7
+R10
+R11
+!i122 87
+R12
+Z39 8C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/Processor.vhd
+Z40 FC:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/Processor.vhd
+l0
+R30
+VAk@jJQ=e5Zano=1=V9g1E3
+!s100 o^2CL1<f2c>_=ZaG69KVK2
+R15
+32
+R16
+!i10b 1
+R17
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/Processor.vhd|
+Z42 !s107 C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/Processor.vhd|
+!i113 0
+R20
+R21
+Aholistic
+R8
+R7
+R10
+R11
+DEx4 work 9 processor 0 22 Ak@jJQ=e5Zano=1=V9g1E3
+!i122 87
+l125
+L16 141
+VN=L=Od?CjafoR[=0_j2zg1
+!s100 ]J;O?JS3[`fYJ3kEE_a?60
+R15
+32
+R16
+!i10b 1
+R17
+R41
+R42
+!i113 0
+R20
+R21
+Eprogramcounter
+R27
+R8
+R7
+R10
+R11
+!i122 85
+R12
+R28
+R29
+l0
+L103 1
+VU3XI9DNLe0mcmX4a[ccUC1
+!s100 DRo@fiSg@EVjdX;H`26VL1
+R15
+32
+R16
+!i10b 1
+R17
+R31
+R32
+!i113 0
+R20
+R21
+Aexecutive
+R8
+R7
+R10
+R11
+DEx4 work 14 programcounter 0 22 U3XI9DNLe0mcmX4a[ccUC1
+!i122 85
+l111
+L110 12
+VP:Y_iB8I0g1<>D44_mRjd1
+!s100 LZ4Ce74LUAOS1k]09R<XN2
+R15
+32
+R16
+!i10b 1
+R17
+R31
+R32
+!i113 0
+R20
+R21
+Eram
+R6
+R7
+R8
+R9
+R10
+R11
+!i122 84
+R12
+Z43 8C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/Memory.vhd
+Z44 FC:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/Memory.vhd
+l0
+R30
+V`]Rz^X3R`^BV<_2TdBV6@2
+!s100 =KdZYe1_hnQKl6LM9ESKS3
+R15
+32
+R16
+!i10b 1
+R17
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/Memory.vhd|
+Z46 !s107 C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/Memory.vhd|
+!i113 0
+R20
+R21
+Astaticram
+R7
+R8
+R9
+R10
+R11
+DEx4 work 3 ram 0 22 `]Rz^X3R`^BV<_2TdBV6@2
+!i122 84
+l26
+L21 31
+V08mZiTI1ANPSY]UR8_3@m3
+!s100 NcLPHh3Gk6Y[o;@BCcc4a0
+R15
+32
+R16
+!i10b 1
+R17
+R45
+R46
+!i113 0
+R20
+R21
+Eregister32
+R6
+R7
+R8
+R9
+R10
+R11
+!i122 82
+R12
+R13
+R14
+l0
+L140 1
+VZC6Q]Ti51;c2=@[Ug?:Nh0
+!s100 83bSiRhK34Yh?E=]n@ZRM0
+R15
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R20
+R21
+Abiggermem
+R7
+R8
+R9
+R10
+R11
+DEx4 work 10 register32 0 22 ZC6Q]Ti51;c2=@[Ug?:Nh0
+!i122 82
+l155
+L147 42
+VW=1RnP;[b`aibCL4D1]bX2
+!s100 _5RL3hc:LOX9^JS]G;jEe2
+R15
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R20
+R21
+Eregister8
+R6
+R7
+R8
+R9
+R10
+R11
+!i122 82
+R12
+R13
+R14
+l0
+L61 1
+VHBlc@ILFYg=K[>HMSD[c72
+!s100 G6WjKHe=_I_f5fFJ]gf`G3
+R15
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R20
+R21
+Amemmy
+R7
+R8
+R9
+R10
+R11
+DEx4 work 9 register8 0 22 HBlc@ILFYg=K[>HMSD[c72
+!i122 82
+l75
+L68 65
+V`>5bc4CE_Miic0SCfmd7d1
+!s100 e8Y1Om@cz9GEQJDgE4i^70
+R15
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R20
+R21
+Eregisters
+R6
+R7
+R8
+R9
+R10
+R11
+!i122 84
+R12
+R43
+R44
+l0
+L60 1
+V8?DBbzR]^MDOh[dkKHZ6Y3
+!s100 oEkR;7c?nG9Vld`2NiTbU3
+R15
+32
+R16
+!i10b 1
+R17
+R45
+R46
+!i113 0
+R20
+R21
+Aremember
+R7
+R8
+R9
+R10
+R11
+DEx4 work 9 registers 0 22 8?DBbzR]^MDOh[dkKHZ6Y3
+!i122 84
+l89
+L70 162
+V?hV`Z`N9AUM6bKczPCa8A1
+!s100 nB`d2YHgGJRP06`4YonUb3
+R15
+32
+R16
+!i10b 1
+R17
+R45
+R46
+!i113 0
+R20
+R21
+Eshift_register
+R6
+R7
+R8
+R9
+R10
+R11
+!i122 82
+R12
+R13
+R14
+l0
+L234 1
+Vc^Zk>j5X?6o488T[1e]K10
+!s100 f_l]=<gK>Q0Q:IjI122XP0
+R15
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R20
+R21
+Ashifter
+R7
+R8
+R9
+R10
+R11
+DEx4 work 14 shift_register 0 22 c^Zk>j5X?6o488T[1e]K10
+!i122 82
+l243
+L241 18
+V`:ZU2B`LZAg:Uz_lczJDg0
+!s100 LmeHW3eaCo=D[omBAggS;2
+R15
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R20
+R21
+Etprocessor_vhd
+R33
+R9
+R7
+R8
+R10
+R11
+!i122 88
+R12
+Z47 8C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/tProcessor.vhd
+Z48 FC:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/tProcessor.vhd
+l0
+R24
+VTAgo8n?>zRHMF];jVzMPD0
+!s100 ?:7:W0_BmZ5m0OXKDLi[l0
+R15
+32
+R16
+!i10b 1
+R17
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/tProcessor.vhd|
+Z50 !s107 C:/Users/dmatus/Documents/GitHub/ECEGR2220/Lab_6/tProcessor.vhd|
+!i113 0
+R20
+R21
+Abehavior
+R9
+R7
+R8
+R10
+R11
+DEx4 work 14 tprocessor_vhd 0 22 TAgo8n?>zRHMF];jVzMPD0
+!i122 88
+l27
+L15 45
+VZOaQkBG3=dH4N2RZEihJQ0
+!s100 e^2B=f<>Ymz<G9YMHG7BX1
+R15
+32
+R16
+!i10b 1
+R17
+R49
+R50
+!i113 0
+R20
+R21
